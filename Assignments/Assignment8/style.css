@@ -1,0 +1,38 @@
+body{
+  background-color: #00BFFF;
+  font-family: sans-serif;
+}
+.header, .footer{
+  background-color: black;
+  color: #049993;
+  text-align: left;
+ padding: 8px;
+}
+.navigation ul{
+margin: 0;
+  list-style-type: none;
+  padding: 12px;
+}
+.navigation ul li a{
+  color: black;
+}
+.navigation ul li{
+ display: inline-block;
+}
+.navigation{
+  background-color: white;
+}
+.main{
+  background-color: #049993;
+padding: 15px;
+}
+.main h1{
+  margin: 0;
+  padding: 20px;
+  padding-top: 30px;
+}
+.nested{
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 5px;
+}
