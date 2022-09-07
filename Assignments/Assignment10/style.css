@@ -1,0 +1,52 @@
+h1{
+  font-family: inherit;
+}
+
+body{
+  /* background-color: lavender; */
+}
+
+/* table{
+  border-collapse: collapse;
+  border-spacing: 15px;
+  background-color: red;
+} */
+
+th, td{
+  /* background-color: #9BD5E3; */
+  /* background-color: #89CFF0; */
+  padding: 15px;
+  text-align: center;
+  /* border: 5px solid lime; */
+}
+
+caption{
+  text-align: left;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header-col{
+  background-color: #D3D3D3;
+}
+
+.table-col{
+  background-color: #9BD5E3;
+}
+
+ul{
+  padding-left: 12px;
+}
+
+
+#nav-list li{
+  display: inline;
+}
+
+#nav-list{
+  display: inline;
+  color: #000;
+  padding: 3px;
+}

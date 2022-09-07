@@ -1,0 +1,47 @@
+Body{
+  font-family: sans-serif;
+}
+
+a:hover{
+  color: #fff;
+  background-color: #88146B;
+}
+
+#firstname:focus{
+  outline: medium solid #88146B;
+  border-radius: 4px;
+  outline-offset: -2px;
+}
+
+#nav-list li{
+  display: inline;
+}
+
+#nav-list{
+  justify-content: center;
+  /* color: #000; */
+  padding: 3px;
+}
+
+
+/* #firstname:focus{
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  background-color: yellow;
+  color: orange;
+} */
+
+button {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.no-focusborder:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  /* background-color: black; */
+  background-color: #88146B;
+  color: white;
+}
