@@ -62,6 +62,7 @@
         if (ballY + ballHeight > roomHeight){
           ballY = roomHeight - ballHeight;
           ballYSpeed *= -0.85;
+          ballXSpeed *= 0.99;
         }
 
         ball.style.left = ballX + 'px';
