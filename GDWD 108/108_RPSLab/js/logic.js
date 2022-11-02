@@ -16,9 +16,9 @@ function getRandomPick(){
 
 
 function getResultText(computerPick, playerPick){
-  const TIE = "It's a tie!";
-  const WIN = "You win!";
-  const LOSE = "You lose!";
+  const TIE = "It's a tie! You both won, hurray!";
+  const WIN = "Congrat! You win!";
+  const LOSE = "Aw, You lost but it's ok! Try again and you'll win the next round!";
 
   if (computerPick == playerPick) {
     return TIE;
