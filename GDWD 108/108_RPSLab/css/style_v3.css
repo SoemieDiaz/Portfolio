@@ -6,6 +6,12 @@ body {
   background-size: cover;
 }
 
+h1 {
+  color: HotPink;
+}
+h2 {
+  color: HotPink;
+}
 /*****************************************************************************
   Popup-related CSS is found here
 *****************************************************************************/
@@ -38,7 +44,7 @@ body {
 }
 /* Make the popup be on top of the overlay and style it */
 #popup {
-  background: HotPink;
+  background: #F2B3BF;
   border-radius: 36px;
   padding: 36px 24px 72px;
   position: relative;
@@ -169,7 +175,7 @@ body {
 *****************************************************************************/
 /* Add spacing, sizing, and color, along with turning on transitions */
 button {
-  background: linear-gradient(to bottom, skyblue, teal);
+  background: linear-gradient(to bottom, #F2B705, #F29F05);
   border: 0;
   border-radius: 12px;
   padding: 12px;
@@ -178,6 +184,7 @@ button {
   margin: 24px 12px;
   transition: transform 0.2s;
   cursor: pointer;
+  font-weight: bold;
   width: 30%;
 }
 /* Make the button grow when hovered over */
@@ -186,7 +193,7 @@ button:hover {
 }
 /* Flip the gradient when clicked on */
 button:active {
-  background: linear-gradient(to top, skyblue, teal);
+  background: linear-gradient(to top, #F2B705, #F29F05);
 }
 /* Hide that obnoxious orange outline when clicked in Chrome */
 button:focus-visible {
