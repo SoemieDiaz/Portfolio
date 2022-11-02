@@ -2,6 +2,8 @@
 body {
   text-align: center;
   font-family: Verdana, sans-serif;
+  background-image: url("../images/v935-aum-18.jpg");
+  background-size: cover;
 }
 
 /*****************************************************************************
@@ -36,7 +38,7 @@ body {
 }
 /* Make the popup be on top of the overlay and style it */
 #popup {
-  background: white;
+  background: HotPink;
   border-radius: 36px;
   padding: 36px 24px 72px;
   position: relative;
@@ -176,6 +178,7 @@ button {
   margin: 24px 12px;
   transition: transform 0.2s;
   cursor: pointer;
+  width: 30%;
 }
 /* Make the button grow when hovered over */
 button:hover {
